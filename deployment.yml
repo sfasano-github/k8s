@@ -6,7 +6,6 @@ metadata:
     app: myapp
     type: front-end
 spec:
-  serviceAccountName: flux-applier  # Aquí se asigna el service account
   replicas: 3
   selector:
     matchLabels:
